@@ -3,7 +3,7 @@ const products = [
     {
         id: 1,
         name: "Camisa Flamengo",
-        placeholder_img: "Assets/img/flamengo.jpg",
+        placeholder_img: "assets/img/flamengo.jpg",
         preco: "R$ 159,90",
         descricao_curta: "Camisa oficial do Flamengo, tecido premium e bordado de qualidade."
     },
