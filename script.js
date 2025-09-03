@@ -118,12 +118,14 @@ function updateActiveNavLink() {
 // ===== POPULATE PRODUCTS =====
 function populateProducts() {
     productsGrid.innerHTML = products.map(product => `
-        <div class="product-card">
-            <img src="${product.placeholder_img}" alt="${product.name}" class="product-image" loading="lazy">
-            <h3 class="product-name">${product.name}</h3>
-            <div class="product-price">${product.preco}</div>
-            <p class="product-description">${product.descricao_curta}</p>            
-        </div>
+        <a href="https://www.instagram.com/trajedecraquefc" target="_blank" rel="noopener noreferrer" class="product-card-link">
+            <div class="product-card">
+                <img src="${product.placeholder_img}" alt="${product.name}" class="product-image" loading="lazy">
+                <h3 class="product-name">${product.name}</h3>
+                <div class="product-price">${product.preco}</div>
+                <p class="product-description">${product.descricao_curta}</p>
+            </div>
+        </a>
     `).join('');
 }
 
@@ -138,7 +140,7 @@ function requestProduct(productName) {
     
     setTimeout(() => {
         // Open phone call
-        window.location.href = `tel:7599942973`;
+        window.location.href = `tel:71987494504`;
         
         // Reset button after delay
         setTimeout(() => {

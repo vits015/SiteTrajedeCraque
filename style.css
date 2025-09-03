@@ -308,6 +308,12 @@ body::before {
     margin-top: 2rem;
 }
 
+.product-card-link {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Garante que a cor do texto seja herdada do elemento pai */
+    display: block; /* Opcional: Para que o link ocupe toda a área do card se necessário */
+}
+
 .product-card {
     background: var(--panel);
     border-radius: 16px;
