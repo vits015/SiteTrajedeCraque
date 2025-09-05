@@ -2,46 +2,46 @@
 const products = [
     {
         id: 1,
-        name: "Camisa Flamengo",
+        name: "Camisa Flamengo 25/26 Torcedor Titular",
         placeholder_img: "assets/img/flamengo.jpg",
         preco: "R$ 159,90",
         descricao_curta: "Camisa oficial do Flamengo, tecido premium e bordado de qualidade."
     },
-    // {
-    //     id: 2,
-    //     name: "Camisa Real Madrid",
-    //     placeholder_img: "Assets/img/camisa-real-madrid.png",
-    //     preco: "R$ 159,90",
-    //     descricao_curta: "Camisa do Real Madrid temporada atual, material respirável e design autêntico."
-    // },
-    // {
-    //     id: 3,
-    //     name: "Camisa Barcelona",
-    //     placeholder_img: "Assets/img/camisa-barcelona.png",
-    //     preco: "R$ 159,90",
-    //     descricao_curta: "Camisa do FC Barcelona, qualidade premium com tecnologia Dri-FIT."
-    // },
-    // {
-    //     id: 4,
-    //     name: "Camisa PSG",
-    //     placeholder_img: "Assets/img/camisa-psg.png",
-    //     preco: "R$ 159,90",
-    //     descricao_curta: "Camisa do Paris Saint-Germain, design moderno e conforto excepcional."
-    // },
-    // {
-    //     id: 5,
-    //     name: "Camisa Manchester City",
-    //     placeholder_img: "Assets/img/camisa-manchester-city.png",
-    //     preco: "R$ 159,90",
-    //     descricao_curta: "Camisa do Manchester City, tecido de alta performance e acabamento perfeito."
-    // },
-    // {
-    //     id: 6,
-    //     name: "Camisa Liverpool",
-    //     placeholder_img: "Assets/img/camisa-liverpool.png",
-    //     preco: "R$ 159,90",
-    //     descricao_curta: "Camisa do Liverpool FC, material premium e design icônico dos Reds."
-    // }
+    {
+        id: 2,
+        name: "Camisa Real Madrid 2025/26 Torcedor Titular",
+        placeholder_img: "Assets/img/camisa-real-madrid.png",
+        preco: "R$ 159,90",
+        descricao_curta: "Camisa do Real Madrid temporada atual, material respirável e design autêntico."
+    },
+    {
+        id: 3,
+        name: "Camisa Barcelona 2025/26 Torcedor Titular",
+        placeholder_img: "Assets/img/camisa-barcelona.png",
+        preco: "R$ 159,90",
+        descricao_curta: "Camisa do FC Barcelona, qualidade premium com tecnologia Dri-FIT."
+    },
+    {
+        id: 4,
+        name: "Camisa Palmeiras 2025/26 Torcedor Titular",
+        placeholder_img: "Assets/img/camisa-palmeiras.png",
+        preco: "R$ 159,90",
+        descricao_curta: "Camisa do Palmeiras, design moderno e conforto excepcional."
+    },
+    {
+        id: 5,
+        name: "Camisa Bahia 2025/26 Torcedor Tricolor",
+        placeholder_img: "Assets/img/camisa-bahia.png",
+        preco: "R$ 159,90",
+        descricao_curta: "Camisa do Bahia, tecido de alta performance e acabamento perfeito."
+    },
+    {
+        id: 6,
+        name: "Camisa Vitoria 2025/26 Torcedor Titular",
+        placeholder_img: "Assets/img/camisa-vitoria.png",
+        preco: "R$ 159,90",
+        descricao_curta: "Camisa do Vitoria, material premium e design icônico."
+    }
 ];
 
 // ===== DOM ELEMENTS =====
